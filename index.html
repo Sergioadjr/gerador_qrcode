@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Gerador de QRCode</title>
+    
 </head>
 
 <body>
     <div class="wrapper">
         <header>
-            <h1>Gerador de Qr Code</h1>
-            <p>Insira uma url ou texto para gerar um Qr Code</p>
+            <h1>Gerador de QR Code para WhatsApp</h1>
+            <p>Insira um telefone</p>
         </header>
         <div class="form">
-            <input type="text" placeholder="Insira aqui">
+            <input type="text" id="telefone" placeholder="Insira o número">
             <button>Gerar Qr Code</button>
         </div>
         <div class="qr-code">
@@ -23,6 +24,7 @@
         </div>
     </div>
     <script src="./js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.6/jquery.inputmask.min.js"></script>
 </body>
 
 </html>
